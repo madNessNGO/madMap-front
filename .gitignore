@@ -2,8 +2,10 @@
 logs
 *.log
 npm-debug.log*
+.tmp
 
 # Runtime data
+dist
 pids
 *.pid
 *.seed
@@ -29,6 +31,8 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+bower_components
+test/bower_components
 
 # Optional npm cache directory
 .npm
